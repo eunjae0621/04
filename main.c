@@ -8,11 +8,11 @@ int main(int argc, char *argv[]) {
 	printf("input two integers : ");
 	scanf("%d %d", &a, &b);
 	
-	printf("%d + %d = %d\n", a, b, a + b);
-	printf("%d - %d = %d\n", a, b, a - b);
-	printf("%d * %d = %d\n", a, b, a * b);
-	printf("%d / %d = %d\n", a, b, a / b);
-	printf("%d %% %d = %d\n", a, b, a % b);
+	printf("+ result is %d\n", a + b);
+	printf("- result is  %d\n", a - b);
+	printf("* result is %d\n",   a * b);
+	printf("/ result is %d\n",   a / b);
+	printf("%% result is %d\n",   a % b);
 	
 	return 0;
 }
